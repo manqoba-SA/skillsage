@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,200;1,400&display=swap');
-
 body{
     padding: 0;
     margin: 0;
@@ -8,9 +7,8 @@ body{
 }
 header{
     background: linear-gradient(to left, rgba(169, 169, 170, 0.52), #3f5470), 
-    url('file:///C:/Users/me/Desktop/BIT/SECOND%20YEAR/DSW/group%20project/website/images/heritage-day-instagram-stars.jpg') fixed center center;
+    url('../images/heritage-day-instagram-stars.jpg') fixed center center;
     height: 100vh;
-    
     background-size: cover;
 }
 .welcome-text{
@@ -23,7 +21,6 @@ header{
 .welcome-text p{
     line-height: 25px;
     color: #202020;
-
 }
 .register-button{
     background-color:#202020;
@@ -32,6 +29,7 @@ header{
     padding: 9px 22px;
     color:#fff;
     transition: ease-in-out .5s;
+    cursor: pointer;
 }
 .login-button{
     background:none;
@@ -42,6 +40,7 @@ header{
     padding: 7px 20px;
     margin: 0 8px;
     transition: ease-in-out .5s;
+    cursor: pointer;
 }
 .login-button:hover{
     background:#2C73D2;
@@ -57,11 +56,9 @@ header{
     justify-content: space-around;
     width: 100%;
     height: 8vh;
-    
-    
 }
-.logo p{
-    padding-top: 5px;
+.logo img{
+    padding-top: 8px;
     color: #202020;
     font-size: 1em;
 }
@@ -74,7 +71,6 @@ header{
     list-style: none;
     padding-top: 5px;
     justify-content: space-around;
-    
 }
 .list-nav li a{
     margin-left: 20px;
@@ -85,30 +81,26 @@ header{
     font-weight: 1px;
     font-size: 1em;
 }
-
 .list-nav li a:hover{
     color:#2C73D2
 }
 .burger-menu{
     display: none;
 }
-
 .burger-menu div{
     width: 25px;
     height: 3px;
     background-color: #202020;
     font-size: 20px;
     margin: 5px;
-
 }
-
 /* fixed nav */
 .fixed-nav{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(247, 245, 245, 0.856);
+    background-color: rgba(247, 245, 245, 0.973);
     height: 50px;
     box-shadow: 0 2px 2px rgb(150, 150, 150);
     z-index: 99999;
@@ -117,7 +109,6 @@ header{
 .fixed-nav .header-nav .list-nav{
     padding-top: 0;
 }
-
 /* ===============================ABOUT US PAGE================================================== */
 /* =================================================================================================== */
 .intro-page{
@@ -194,10 +185,22 @@ header{
 }
 .row{
     color:#525151;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+    padding: 0 15px;
+
+}
+.row:hover{
+    color:#525151;
+    box-shadow: 0 10px 20px #393939;
+
+    
 }
 .row h3{
     text-transform: uppercase;
 }
+/* ===============================ABOUT US PAGE================================================== */
+/* =================================================================================================== */
 
 /* ===============================HOW IT WORKS PAGE=================================================== */
 /* =================================================================================================== */
@@ -213,7 +216,7 @@ header{
     text-transform: uppercase;
 }
 .how-it-works .how-it-works-steps{
-    padding: 0 100px;
+    padding: 40px 100px;
     margin: 0 auto;
     position: relative;
 }
@@ -284,6 +287,9 @@ header{
     margin-bottom: 10px;
 }
 
+/* ===============================HOW IT WORKS PAGE=================================================== */
+/* =================================================================================================== */
+
 /* ==========================================OUR TEAM PAGE======================================================= */
 /* =================================================================================================== */
 .our-team{
@@ -326,10 +332,11 @@ header{
 .member-card{
     padding: 10px;
 }
+/* ==========================================OUR TEAM PAGE======================================================= */
+/* =================================================================================================== */
 
 /* ===============================CONTACT US PAGE================================================== */
 /* =================================================================================================== */
-
 .contact-us{
     padding: 0 120px;
     height: 100vh;
@@ -363,10 +370,11 @@ header{
     width: 100%;
     padding: 12px 0;
     border: none;
-    background: #525151;
+    /* background: #525151; */
+    box-shadow: 0px 0px 2px 0px rgb(150, 150, 150);
     outline: none;
     resize: none;
-    color: #fff;
+    color: #202020;
 }
 
 .form-field input[type="submit"]{
@@ -388,7 +396,7 @@ header{
     left: 10px;
     top: 10px;
     transition: 0.5s;
-    color: #fff;
+    color: #777;
 }
 .form-field input:focus ~ span,
 .form-field input:valid ~ span,
@@ -415,14 +423,14 @@ header{
 .col-lg-6{
     width: 50%;
 }
+/* ===============================CONTACT US PAGE================================================== */
+/* =================================================================================================== */
 
 /* ===============================Footer Of the page================================================== */
 /* =================================================================================================== */
-
 footer {
     background: #e9ecef;
     color: #202020;
-
 }
 .footer-container{
     margin: 0 90px;
@@ -432,7 +440,6 @@ footer {
 .footer-row{
     box-sizing: border-box;
 }
-
 .footer-row ul{
     list-style:none;
     padding-left: 0;
@@ -449,28 +456,325 @@ footer {
 
 .footer-row ul.icons{
     display: flex;
-    padding: 30px 0;
-    
+    padding: 30px 0;  
 }
 .footer-row ul.icons img{
     width: 35px;
     height: 35px;
     padding-right: 10px;
     transition: ease-in .2s;
+    cursor: pointer;
 }
-
 .footer-row ul.icons li img:hover{
     width: 45px;
     height: 45px;
    ;
 }
-
 .footer-row ul.users li a{
     font-weight:bold;
-    font-size: 25px;
-    
-    
+    font-size: 25px;   
 }
 .footer-row ul.users li{
     margin: 20px 0;
 }
+
+/* --------------------------------------------------MAIN PAGE---------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+.main-page{
+    margin: 0 210px;  
+}
+.main-page ul{
+    text-align: center;
+    line-height: 25px;
+    list-style: none;
+    color: #525151;
+}
+.cards{
+    margin-top: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+    text-align: center;
+    
+}
+.card{
+    box-shadow: 0px 0px 2px 0px rgb(150, 150, 150);
+    transition: .2s all;
+}
+.card a{
+    text-decoration: none;
+    
+}
+.card:hover{
+    z-index: 1;
+    box-shadow: 0px 0px 2px 0px #2C73D2;
+    transform: scale(1.1)
+
+}
+.card h3{
+    position: relative;
+    color: #2C73D2;
+    transition: all linear 0.25s;
+}
+.card p{
+    position: relative;
+    color: #525151;
+    padding: 5px;
+    transition: all linear 0.25s;   
+}
+.card:hover .card p{
+    transform: scale(1.1);
+    bottom: 5px;
+}
+
+.card:hover .card h3{
+    bottom: 5px;
+}
+.card-image img{
+    width: 100%; height:90px;
+    transition: all linear .2s;
+    object-fit: cover;
+}
+.card:hover .card-image img{
+    filter: grayscale(100%);
+}
+.card-card{
+    padding: 10px;
+}
+.main-header-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 10vh;
+    box-shadow: 0px 0px 2px 0px rgb(150, 150, 150);
+    z-index: 99999;
+    transition: ease-out .2s; 
+}
+.logo img{
+    padding-top: 8px;
+    color: #202020;
+    font-size: 1em;   
+}
+.nav-lists{
+    display: flex;
+}
+.list-nav{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 5px;
+    justify-content: space-around; 
+}
+.list-nav li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #202020;
+    word-spacing: 4px;
+    transition: ease-in-out .2s;
+    font-weight: 1px;
+    font-size: 1em;
+}
+.list-nav li a:hover{
+    color:#39414d
+}
+.header-message{
+    margin-top: 100px;
+    /* position: absolute; */
+    background: linear-gradient(to left, rgba(169, 169, 170, 0.52), #3f5470), 
+    url('../images/book.jpg') fixed center center;
+    /* background-size: cover; */
+    box-shadow: 0px 0px 2px 0px rgba(248, 246, 246, 0.377);
+    height: 200px;
+    padding: 20px;
+    /* width: 50%;
+    right: 0px; */
+}
+.text-box{
+    position: absolute;
+    left: 20%;
+    background-color: #d6d6d677;
+    width: 30%;
+    box-shadow: 0px 0px 2px 0px rgba(248, 246, 246, 0.377);
+    margin: 20px 0 0 0;
+    padding: 20px 
+}
+.main-footer{
+    text-align: center;
+    padding: 20px;   
+}
+.main-foote small{
+    color: #d6d6d677;
+}
+.main-page-blog{
+    margin: 0 210px;
+}
+.main-page-blog span{
+    position: absolute;
+    top: 70px;
+    /* width: 100%; */
+    left:50%;
+    
+}
+.header-message-blog{
+    margin-top: 150px;
+    /* position: absolute; */
+   background-color: #5e5e5e1f;
+   /* background-color: #b6b6b6; */
+    /* background-size: cover; */
+    box-shadow: 0px 0px 2px 0px rgb(150, 150, 150);
+    height: 200px;
+    padding: 20px;
+    /* width: 50%;
+    right: 0px; */
+    
+}
+
+/* bLOG pAGE */
+.text-box-blog{
+    position: absolute;
+    right: 20%;
+    background-color: #0000006c;
+    /* background-color: #525151; */
+    width: 50%;
+    box-shadow: 0px 0px 2px 0px rgb(150, 150, 150);
+    margin: 20px 0 0 0;
+    padding: 30px;
+    line-height: 25px;
+    z-index: 9999;
+}
+.header-blog-image{
+    position: absolute;
+    left: 10%;
+    width: 30%;
+}
+.header-blog-image img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.blog-box-header{
+    display: flex;
+}
+.blog-header-text{
+    position: absolute;
+    right: 25%;
+   
+}
+
+/* ===========================MODAL================================== */
+.hidden{
+    display: none;
+}
+.show-modal{
+    cursor:pointer;
+    padding: 7px 7px;
+    background:none;
+    border:none;
+    /* border: 1px solid #202020; */
+    background-color: #2C73D2;
+    color: #fff;
+    transition: ease-in .2s;
+}
+.show-modal:hover{
+    background-color:#393939;
+}
+.modal{
+    
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.616);
+    transition: ease-in .3s;
+}
+.modal-content{
+    margin: 10% auto;
+    background-color: #fff;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0px 0px 2px 0px rgb(59, 59, 59);
+    transition: ease-in .3s;
+}
+.exit{
+    font-size: 30px;
+    color: #b6b6b6;
+    cursor: pointer;
+    transition: ease-in .2s;
+}
+.exit:hover{
+    color: #000;
+}
+.single-notification{
+    box-shadow: 0px 0px 2px 0px rgb(48, 47, 47);
+    /* margin: 0 auto; */
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px
+}
+.single-notification h3{
+    color: #2C73D2;
+}
+
+/* lIGHSLIDER CSS REDESIGN */
+.card-carousel{
+    /* box-shadow: 2px 2px 2px 2px #2C73D2; */
+    box-shadow: 0px 0px 2px 0px rgb(150 150 150);
+    border: 1px solid #525151;
+    transition: .2s all;
+    padding: 20px;
+    font-size: 13px;
+    background: #52515100;
+}
+.card-carousel a{
+    text-decoration: none;
+}
+.card-carousel:hover{
+    z-index: 1;
+    box-shadow: 0px 0px 2px 0px #2C73D2;
+    transform: scale(1.1)
+}
+.card-carousel h3{
+    position: relative;
+    color: #2C73D2;
+    transition: all linear 0.25s;
+}
+.card-carousel p{
+    position: relative;
+    font-weight: bold;
+    color: #202020;
+    padding: 5px;
+    transition: all linear 0.25s;   
+}
+.card-carousel:hover .card-carousel p{
+    transform: scale(1.1);
+    bottom: 5px;
+}
+.card-carousel:hover .card-carousel h3{
+    bottom: 5px;
+}
+.card-image img{
+    width: 100%; height:90px;
+    transition: all linear .2s;
+    object-fit: cover;
+}
+.card:hover .card-image img{
+    filter: grayscale(100%);
+
+}
+.card-card{
+    padding: 10px;
+}
+
+
+
+
