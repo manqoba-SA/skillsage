@@ -1,0 +1,64 @@
+.register-box{
+    position:absolute;
+    left: 15%;
+    right: 15%;
+    margin:20px;
+    box-shadow: 2px 2px 2px 2px rgb(150, 150, 150);
+    height: 80%;
+}
+
+.left-box{
+    top: 10%;
+    position: absolute;
+    left: 0px;
+    box-sizing: border-box;
+    padding: 30px;
+    display: inline-block;
+    width: 50%;   
+}
+
+.register-input input{
+    width: 100%;
+    padding: 12px 5px;
+    border: none;
+    /* background: #525151; */
+    outline: none;
+    resize: none;
+    /* color: #fff; */
+    margin-top: 15px;
+    box-shadow: 0px 0px 2px 0px rgb(150, 150, 150);
+
+
+}
+.register-input input[type=submit]{
+    width:25%;
+    padding: 10px 15px;
+    background: #2C73D2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: ease .5s;
+}
+
+.right-box{
+    position: absolute;
+    background: linear-gradient(to left, rgba(169, 169, 170, 0.52), #3f5470), 
+    url('file:///C:/Users/me/Desktop/BIT/SECOND%20YEAR/DSW/group%20project/website/images/learning3.jpg') fixed center center;
+    /* background-size: cover; */
+    height: 100%;
+    width: 50%;
+    right: 0px;
+}
+.right-box-login{
+    position: absolute;
+    background: linear-gradient(to left, rgba(169, 169, 170, 0.52), #3f5470), 
+    url('file:///C:/Users/me/Desktop/BIT/SECOND%20YEAR/DSW/group%20project/website/images/une.jpg') fixed center center;
+    /* background-size: cover; */
+    height: 100%;
+    width: 50%;
+    right: 0px;
+}
+.question{
+    margin-left: 20px;
+    
+}
