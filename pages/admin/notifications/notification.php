@@ -38,8 +38,8 @@ require_once("../side.nav.php");
             <td><?php echo $row["topic"]; ?></td>
             <td>
                 <div class="button-flex">
-                    <div class="buttons"><a>Edit</a></div>
-                    <div class="buttons"><a>Delete</a></div>
+                    <div class="buttons"><a href="adit_delete.php?edit=<?php echo $row['id'];?>">Edit</a></div>
+                    <div class="buttons"><a href="edit_delete.php?delete=<?php echo $row['id'];?>">Delete</a></div>
                 </div>
             </td>
         </tr>

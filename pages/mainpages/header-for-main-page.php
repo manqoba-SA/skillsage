@@ -9,7 +9,7 @@
                 <ul class="list-nav left-nav">
                     <li><a href="mainpage.php">Home</a></li>
                     <li><a href="blog.php">Our Blog</a></li>
-                    <li><a href="blog.html">Join TelegramGroup</a></li>
+                    <li><a href="https://t.me/javaebooks">Join TelegramGroup</a></li>
                     <li><a href="#"><?php echo $_SESSION["username"]?>
                     </a></li>
                     <li><a href="../../includes/logout.inc.php">Logout</a></li>

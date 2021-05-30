@@ -7,10 +7,10 @@
             </li>
             <h4>Manage Updates</h4>
             <li>
-                <a href="blogies.php">Blogs</a>
+                <a href="blog/blogies.php">Blogs</a>
             </li>
             <li>
-                <a href="notification.php">Notifications</a>
+                <a href="notifications/notification.php">Notifications</a>
             </li>
             <h4>Manage Schools</h4>
             <li>
@@ -25,18 +25,18 @@
     <div class="navbar">
     <ul class="links-for-navbar">
             <li>
-                <a href="admin-page.php">Home</a>
+                <a href="../admin-page.php">Home</a>
             </li>
             <li>
-                <a href="blogies.php">Blogs</a>
+                <a href="blogs/blogies.php">Blogs</a>
             </li>
             <li>
                 <a href="notifications/notification.php">Notifications</a>
             </li>
             <li>
-                <a href="users.html">Available Jobs</a>
+                <a href="../users.html">Available Jobs</a>
             </li>
             <li>
-                <a href="users.html">other databases</a>
+                <a href="../users.html">other databases</a>
             </li>
     </div>
