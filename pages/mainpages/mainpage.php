@@ -36,7 +36,7 @@ session_start();
          <!-- ==================================================CARDS FOR OPTIONS====================================================== -->
         <div class="cards">
             <div class="card">
-                <a href="#">
+                <a href="grade9.php">
                 <div class="card-image">
                     <img src="../../images/grade9 V.jpg" alt="grade9">
                 </div>
@@ -45,7 +45,7 @@ session_start();
             </a>
             </div>
             <div class="card">
-                <a href="#">
+                <a href="grade11.12.php">
                 <div class="card-image">
                     <img src="../../images/grade10.jpg">
                 </div>
@@ -63,30 +63,30 @@ session_start();
             </a>
             </div>
             <div class="card">
-                <a href="#">
+                <a href="talent.php">
                 <div class="card-image">
                     <img src="../../images/business.JPG">
                 </div>
                 <h3>For Talent</h3>
-                <p>Have nothing but only your gifted Talent? We got you here with more oppotunities🤘</p>
+                <p>Have nothing but only your gifted Talent? We got you here with more oppotunities</p>
             </a>
             </div>
             <div class="card">
-                <a href="#">
+                <a href="unemployment.php">
                 <div class="card-image">
                     <img src="../../images/unemployed.JPG">
                 </div>
                 <h3>Unemployed</h3>
-                <p>Are looking for a job ? 😉Awez we got you here</p>
+                <p>Are looking for a job ? Awez we got you here</p>
             </a>
             </div>
             <div class="card">
-                <a href="#">
+                <a href="business.php">
                 <div class="card-image">
                     <img src="../../images/business2.JPG">
                 </div>
                 <h3>Up fo Business</h3>
-                <p>Have a dream or you need to start business?🤑 Info and opportunities here will help</p>
+                <p>Have a dream or you need to start business? Info and opportunities here will help</p>
             </a>
             </div>
         </div>

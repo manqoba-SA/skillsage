@@ -69,8 +69,14 @@ session_start();
         </div>
     </div>
 
-        <!-- Content -->
-        <div class="category">
+    <div class="header-message-ncs">
+        <div class="text-box">
+            <h2>"Education becomes more relevent once you know what you want to do with it." - Vusi Thembekwayo.</h2>
+        </div>
+    </div>
+    
+    <!-- Content -->
+    <div class="category">
         <h2>Collegies you might qualify for</h2>
         <div class="item">
             <ul id="content-slider" class="light-slider">
@@ -105,11 +111,7 @@ session_start();
         </div>
     </div>
 
-    <div class="header-message-ncs">
-        <div class="text-box">
-            <h2>There are other opportunities for matric level other than Tetiary institutions.</h2>
-        </div>
-    </div>
+  
     <!-- Content -->
     <div class="category">
         <h2>Services that can help you to excel as you have matric</h2>
