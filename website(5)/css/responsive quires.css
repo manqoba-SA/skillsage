@@ -1,0 +1,212 @@
+
+
+/*For bigger tablets and mini laptops */
+@media screen and (max-width:1200px){
+
+}
+
+
+
+/* For big tablets eg iPads */
+@media screen and (max-height:1023px){
+
+}
+
+
+
+/* For formal phones to smaller tablets eg iPhone 6, Sumsung Galaxy S9 */
+@media screen and (max-width: 767px){
+    body{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .burger-menu{
+        display: block;
+        top: 11px;
+        position: relative;
+        cursor: pointer;
+        z-index: 99999;
+    }
+    .nav-lists{
+        position: absolute;
+        left: 0;
+        height: 100vh;
+        width: 70%;
+        top: 0;
+        /* background-color: rgba(247, 245, 245, 0.856); */
+        background-color: rgba(247, 245, 245, 0.973);
+        display: block;
+        padding-top: 100px;
+        /* box-shadow: 0px 5px 2px 0px rgb(150, 150, 150); */
+        transform: translateX(-100%);
+        transition: transform 0.2s ease-out;
+        z-index: 99999;
+    }
+    
+    .nav-lists .list-nav{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .nav-lists .list-nav li{
+        padding-bottom: 50px;
+        align-items: center;
+    }
+    .left-nav li a{
+        border: 2px solid #2C73D2;
+        padding: 10px 15px;
+    }
+    .left-nav li a:hover{
+        background: #525151;
+    }
+    .list-nav li a{
+        color: black;
+        
+    }
+
+    .nav-active{
+        transform: translateX(0%);
+    }
+    /* @keyframes navFade {
+        from{
+            opacity: 0;
+            transform: translateX(50px)
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px)
+        }
+    } */
+    /* header{
+        height: 100vh;
+    } */
+
+    .burger-toggle .manu-line1{
+        transform: rotate(-45deg) translate(-5px,6px);
+        transition: ease-out .2s;
+    }
+    .burger-toggle .manu-line2{
+        opacity: 0;
+    }
+    .burger-toggle .manu-line3{
+        transform: rotate(45deg) translate(-5px,-6px);
+        transition: ease-out .2s;
+    }
+
+    .welcome-text{
+        right: 15%;
+        top: 15%;
+        left:15%;
+    }
+    .welcome-text p{
+        font-size: 18px;
+        text-align:justify;
+    
+    }
+    .welcome-text h1{
+        font-size: 25px;
+        text-align: justify;
+    
+    }
+
+    .section-heading{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .section-heading::before {
+        top: 30px;
+    }
+    .section-heading::after {
+        top: 10.5px;
+    }
+
+    .intro-page-content{
+        grid-template-columns: 1fr;
+    }
+
+    .our-team {
+        margin: 0 20px;
+    }
+
+    .our-team p{
+        text-align: justify;
+    }
+    
+    .team-cards{
+        /* padding: 10px; */
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:20px;
+        
+        
+    }
+
+    .contact-us {
+        padding: 0 20px;
+    }
+    .contact-form {
+        position: absolute;
+        left: 15%;
+        width: 70%;
+    }
+    .col-lg-6 {
+        width: 100%;
+    }
+    .form-field input[type="submit"] {
+        width: 100%;
+    }
+
+    .footer-container{
+       grid-template-columns: 1fr;
+    }
+
+    /* For Login And Regi */
+    
+}
+
+    
+/* For Smaller Phones eg iPhone 5 */
+@media screen and (max-width: 480px){
+
+}
+
+@media (max-width: 768px){
+
+    .how-it-works {
+        padding: 0px 20px;
+    }
+    .how-it-works .how-it-works-steps {
+        padding: 40px 40px;}
+    .how-it-works .how-it-works-steps .rows {
+        /* display: flex; */
+        margin: 10px 0px;
+        /* width: 100%; */
+        display: block;
+    }
+    .how-it-works .how-it-works-steps .rows .step-number{
+        width: 100%;
+    }
+    .how-it-works .how-it-works-steps::before,
+    .how-it-works .how-it-works-steps .rows.right .step-number::before {
+        
+        left: -49px;
+    }
+    .how-it-works .how-it-works-steps .step-number{
+        width: 100%;
+        /* margin-left: 70px; */
+    }
+    .how-it-works .how-it-works-steps .rows:not(:label-child) .step-number  {
+        margin-bottom: 50px;
+    }
+    .how-it-works .how-it-works-steps .rows.left .step-number::before{ left: -40px;}
+    .how-it-works .how-it-works-steps .rows.left .step-number::after{ left: -18px;}
+}
+
+@media screen and (min-height: 563px){
+    .welcome-text p {
+        font-size: 16px;}
+    .welcome-text h1 {
+        font-size: 20px;}
+}
