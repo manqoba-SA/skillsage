@@ -1,10 +1,12 @@
- //  Code for Responsive Nav Bar
+//  //  Code for Responsive Nav Bar
  const navSlider = function(){
      const burgerMenu = document.querySelector(".burger-menu")
      const nav = document.querySelector(".nav-lists")
 
      burgerMenu.addEventListener("click", function(){
          nav.classList.toggle("nav-active")
+         //BurgeMenu animation
+         burgerMenu.classList.toggle("burger-toggle")
      })
  }
  
@@ -31,3 +33,4 @@
     */
 
  })
+
