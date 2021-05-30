@@ -44,4 +44,36 @@ for(let i = 0; i < btnOpenCardModal.length; i++){
         console.log("Button is clicked");
         mymodal.classList.add("myhidden");
     })
-}l
+}
+
+
+
+//  For cards grade9 Modal
+let grademodal =document.querySelector(".grademodal");
+const btnOpenCardModalG = document.querySelectorAll('.showgrade');
+const btnCloseCardModalG = document.querySelector('.gradeexit');
+console.log(btnOpenCardModal)
+
+for(let i = 0; i < btnOpenCardModalG.length; i++){
+    btnOpenCardModalG[i].addEventListener('click', function(){
+        console.log("Button is clicked")
+        grademodal.classList.remove("myhiddenG");
+        var id = this.value;
+        console.log(id)
+        
+        var name= document.querySelector("#name"+id).textContent;
+        var signature = document.querySelector("#signature"+id).textContent;
+        var longIntro = document.querySelector("#long-intro"+id).textContent;
+        var website = document.querySelector("#website"+id).textContent;
+        str = "Click for more";
+        var link = str.link(website)
+        document.querySelector("#vname").textContent = name;
+        document.querySelector("#long-introv").textContent= longIntro;
+        document.querySelector("#validate-signature").textContent= signature;
+        document.getElementById("link").innerHTML = link;    
+    })
+    btnCloseCardModalG.addEventListener('click', function(){
+        console.log("Button is clicked");
+        grademodal.classList.add("myhiddenG");
+    })
+}
